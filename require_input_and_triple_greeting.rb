@@ -15,4 +15,5 @@ puts  "Authorization completed"
 
 puts # Не понял как абзацы делать( (x3)
 
-puts  "Welcome #{name}. Hello! Hello! Hello!"
+puts  "Welcome #{name}."
+puts "Hello! " * 3
