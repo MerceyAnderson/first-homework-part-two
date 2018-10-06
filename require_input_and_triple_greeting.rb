@@ -1,19 +1,14 @@
 # Приложение,которое требует ввода от пользователя и приветствует трижды.
 
-print "What's your name? "
-name = gets.chomp
-name.capitalize!
+print "Username : "
+username = gets.chomp
+username.capitalize!
 
-puts # Не понял как абзацы делать(
-
-print "You're password : "
+print "\n" "Password : "
 password = gets.chomp
 
-puts # Не понял как абзацы делать( (x2)
+puts "\n" "Authorization completed"
 
-puts  "Authorization completed"
+puts  "\n" "Welcome #{username}"
 
-puts # Не понял как абзацы делать( (x3)
-
-puts  "Welcome #{name}"
 puts "Hello! " * 3
